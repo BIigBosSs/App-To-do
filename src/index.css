@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(13, 14, 14, 0.945);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#btn-add{
+  background-color: rgb(19, 97, 199);
+  border-color: rgb(19, 97, 199);
+  padding: 16px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 4px;
+  color: aliceblue;
+  width: 120px;
+}
+
+#todo-input{
+  padding: 15px;
+  width: 400px;
+}
+
+
+
+#todoItem {
+  background-color: rgb(19, 97, 199);
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid rgba(0, 1, 2, 0.568);
+  border-radius: 10px;
+}
+
+#todoList{
+  margin-top: 20px;
+  background-color: rgb(146, 6, 25);
+  margin-left: 400px;
+  margin-right: 400px;
+  border: 1px solid rgb(146, 15, 33);
+  border-radius: 10px;
+}
+
+#todoItem, #main-title{
+  color: rgb(255, 255, 255);
+  margin-top: 3px;
+}
+
+#todo-edit{
+  position: relative;
+  right : 70px;
+  top: 20px;
+  height: 20px;
+}
+#todo-name{
+  position:relative;
+  right : 100px;
+  top: 20px;
+}
+
+#btn-delete, #btn-edit{
+  position:relative;
+  left: 100px;
+  bottom: 10px;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+#btn-delete{
+  background-color: rgb(214, 24, 24);
+  border-color: rgb(214, 24, 24);
+  margin-left:10px;
+}
+
+
+#btn-edit{
+  background-color: rgb(24, 214, 56);
+  border-color: rgb(24, 214, 56);
+  margin-left:10px;
+}
+
+
